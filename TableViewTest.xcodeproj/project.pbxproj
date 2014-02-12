@@ -21,6 +21,8 @@
 		FE1677AA18AC17C5005F352A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE16778C18AC17C5005F352A /* UIKit.framework */; };
 		FE1677B218AC17C5005F352A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE1677B018AC17C5005F352A /* InfoPlist.strings */; };
 		FE1677B418AC17C5005F352A /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1677B318AC17C5005F352A /* TableViewTestTests.m */; };
+		FE1677BE18AC2EE0005F352A /* WithIndex.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1677BD18AC2EE0005F352A /* WithIndex.png */; };
+		FE1677C018AC2EF6005F352A /* WithoutIndex.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1677BF18AC2EF6005F352A /* WithoutIndex.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		FE1677AF18AC17C5005F352A /* TableViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		FE1677B118AC17C5005F352A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE1677B318AC17C5005F352A /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		FE1677BD18AC2EE0005F352A /* WithIndex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WithIndex.png; sourceTree = "<group>"; };
+		FE1677BF18AC2EF6005F352A /* WithoutIndex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WithoutIndex.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		FE16778F18AC17C5005F352A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE1677BF18AC2EF6005F352A /* WithoutIndex.png */,
+				FE1677BD18AC2EE0005F352A /* WithIndex.png */,
 				FE16779018AC17C5005F352A /* TableViewTest-Info.plist */,
 				FE16779118AC17C5005F352A /* InfoPlist.strings */,
 				FE16779418AC17C5005F352A /* main.m */,
@@ -230,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1677A118AC17C5005F352A /* Images.xcassets in Resources */,
+				FE1677C018AC2EF6005F352A /* WithoutIndex.png in Resources */,
 				FE16779318AC17C5005F352A /* InfoPlist.strings in Resources */,
 				FE16779C18AC17C5005F352A /* Main.storyboard in Resources */,
+				FE1677BE18AC2EE0005F352A /* WithIndex.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +469,7 @@
 				FE1677B918AC17C5005F352A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1677BA18AC17C5005F352A /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				FE1677BC18AC17C5005F352A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
