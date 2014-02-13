@@ -8,5 +8,8 @@ When first booting the app look for a single pixel red line between the search b
 
 With section indexs:
 
+![Screenshot](/TableViewTest/WithIndex.png)
 
 Without section indexs:
+
+![Screenshot](/TableViewTest/WithoutIndex.png)
